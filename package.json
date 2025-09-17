@@ -1,0 +1,27 @@
+{
+  "name": "webchatbd32025",
+  "version": "1.0.0",
+  "description": "um webchat simples com mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoNeves/webChatBD32025.git"
+  },
+  "author": "Nicolas Neves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoNeves/webChatBD32025/issues"
+  },
+  "homepage": "https://github.com/NicoNeves/webChatBD32025#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
